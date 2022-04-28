@@ -52,3 +52,22 @@ C:\Users\adida\OneDrive\Tài liệu\GitHub\QL_KS\QL_KS\QL_KS\obj\Debug\QL_KS.G
 C:\Users\adida\OneDrive\Tài liệu\GitHub\QL_KS\QL_KS\QL_KS\obj\Debug\QL_KS.GUI.frmThuePhong.resources
 C:\Users\adida\OneDrive\Tài liệu\GitHub\QL_KS\QL_KS\QL_KS\obj\Debug\QL_KS.Properties.Resources.resources
 C:\Users\adida\OneDrive\Tài liệu\GitHub\QL_KS\QL_KS\QL_KS\obj\Debug\QL_KS.csproj.GenerateResource.Cache
+D:\GitHub\QLKS\QL_KS\bin\Debug\QL_KS.exe.config
+D:\GitHub\QLKS\QL_KS\bin\Debug\QL_KS.exe
+D:\GitHub\QLKS\QL_KS\bin\Debug\QL_KS.pdb
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.csproj.AssemblyReference.cache
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.frmLogin.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmMain.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmNhanvien.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmPhong.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmQuanLyDV.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmQuanLyKhachHang.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmSuDungDV.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmThanhToan.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmThietBi.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.GUI.frmThuePhong.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.Properties.Resources.resources
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.csproj.GenerateResource.cache
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.csproj.CoreCompileInputs.cache
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.exe
+D:\GitHub\QLKS\QL_KS\obj\Debug\QL_KS.pdb

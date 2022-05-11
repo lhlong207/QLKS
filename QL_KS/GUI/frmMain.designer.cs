@@ -45,7 +45,6 @@
             this.btnVatDung = new System.Windows.Forms.Button();
             this.btnPhong = new System.Windows.Forms.Button();
             this.btnNguoiDung = new System.Windows.Forms.Button();
-            this.asToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuChucNang.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,8 +54,7 @@
             this.mnuChucNang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.mnuChucNang.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.account,
-            this.help,
-            this.asToolStripMenuItem});
+            this.help});
             this.mnuChucNang.Location = new System.Drawing.Point(0, 0);
             this.mnuChucNang.Name = "mnuChucNang";
             this.mnuChucNang.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
@@ -77,14 +75,14 @@
             // restart
             // 
             this.restart.Name = "restart";
-            this.restart.Size = new System.Drawing.Size(160, 24);
+            this.restart.Size = new System.Drawing.Size(180, 24);
             this.restart.Text = "Đăng nhập lại";
             this.restart.Click += new System.EventHandler(this.restart_Click);
             // 
             // exit
             // 
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(160, 24);
+            this.exit.Size = new System.Drawing.Size(180, 24);
             this.exit.Text = "Thoát";
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
@@ -304,12 +302,6 @@
             this.btnNguoiDung.UseVisualStyleBackColor = false;
             this.btnNguoiDung.Click += new System.EventHandler(this.btnNguoiDung_Click);
             // 
-            // asToolStripMenuItem
-            // 
-            this.asToolStripMenuItem.Name = "asToolStripMenuItem";
-            this.asToolStripMenuItem.Size = new System.Drawing.Size(34, 23);
-            this.asToolStripMenuItem.Text = "as";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +349,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ToolStripMenuItem asToolStripMenuItem;
     }
 }

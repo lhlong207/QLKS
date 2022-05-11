@@ -89,7 +89,8 @@ namespace QL_KS.GUI
 
         private void help_Click(object sender, EventArgs e)
         {
-            Process.Start("http://quanlyks.herobo.com/");
+            Process.Start("file:///C:/Users/Admin/Desktop/tt%20nhom/project/QLKS/HELP/index.html");
+
         }
     }
 }

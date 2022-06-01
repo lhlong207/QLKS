@@ -89,8 +89,22 @@ namespace QL_KS.GUI
 
         private void help_Click(object sender, EventArgs e)
         {
-            Process.Start("file:///C:/Users/Admin/Desktop/tt%20nhom/project/QLKS/HELP/index.html");
+            Huongdan f = new Huongdan();
+            f.Show();
 
+        }
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            this.KeyPreview = true;
+            this.KeyDown += new KeyEventHandler(Help_KeyDown);
+        }
+        void Help_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode.ToString() == "F1")
+            {
+                Huongdan f = new Huongdan();
+                f.Show();
+            }
         }
     }
 }

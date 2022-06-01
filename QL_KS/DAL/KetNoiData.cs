@@ -15,7 +15,7 @@ namespace QL_KS
         private void MoKetNoi()
         {
             if (KetNoiData.connect == null)
-                KetNoiData.connect = new SqlConnection(@"Data Source=JOKER\JOKER;Initial Catalog=QL_KS;Integrated Security=SSPI");
+                KetNoiData.connect = new SqlConnection(@"Data Source=JOKER\JOKER;Initial Catalog=QL_KS;Integrated Security=True;");
             if (KetNoiData.connect.State != ConnectionState.Open)
                 KetNoiData.connect.Open();
         }

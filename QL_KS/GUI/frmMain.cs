@@ -91,7 +91,6 @@ namespace QL_KS.GUI
         {
             Huongdan f = new Huongdan();
             f.Show();
-            Hide();
 
         }
         private void FormMain_Load(object sender, EventArgs e)
@@ -105,7 +104,6 @@ namespace QL_KS.GUI
             {
                 Huongdan f = new Huongdan();
                 f.Show();
-                Hide();
             }
         }
     }

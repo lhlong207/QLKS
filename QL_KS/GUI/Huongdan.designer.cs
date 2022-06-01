@@ -32,7 +32,7 @@
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Giao Diện Nhân viên");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Giao Diện Dịch vụ");
             System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Giao Diện Khách hàng");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Giao Diện phòng");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Giao Diện Phòng");
             System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Giao Diện thuê phòng");
             System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Giao Diện thiết bị");
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Giao Diện sử dụng thiết bị");
@@ -41,7 +41,12 @@
             treeNode1,
             treeNode2,
             treeNode3,
-            treeNode4});
+            treeNode4,
+            treeNode5,
+            treeNode6,
+            treeNode7,
+            treeNode8,
+            treeNode9});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -71,14 +76,14 @@
             treeNode10.Name = "Hướng Dẫn";
             treeNode10.Text = "Hướng Dẫn";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode5});
-            this.treeView1.Size = new System.Drawing.Size(519, 152);
+            treeNode10});
+            this.treeView1.Size = new System.Drawing.Size(519, 228);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(1, 159);
+            this.richTextBox1.Location = new System.Drawing.Point(1, 235);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(519, 137);
             this.richTextBox1.TabIndex = 1;
@@ -88,7 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 294);
+            this.ClientSize = new System.Drawing.Size(519, 369);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.treeView1);
             this.Name = "Huongdan";

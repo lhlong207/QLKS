@@ -59,9 +59,6 @@ namespace QL_KS.GUI
         }
         private void Huongdan_FormClosed(object sender, FormClosedEventArgs e)
         {
-            frmMain frm = new frmMain();
-            frm.Show();
-            Hide();
         }
     }
 }
